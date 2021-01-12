@@ -17,7 +17,7 @@ npm start
 ```
 4. View it at ```http://localhost:3002``` 
 
-##Usage
+## Usage
 
 Populate the ```/posts``` folder with ```.md``` files that contains valid [Markdown syntax](https://www.markdownguide.org/basic-syntax)
 
