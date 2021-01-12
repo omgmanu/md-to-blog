@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0001, minimum-scale=1.0001, maximum-scale=1.0001">
+    <title itemprop="name"><%= `${metaData.title} | ${metaData.siteTitle}` %></title>
+    <meta name="description" content="<%= metaData.description %>">
+    <meta name="keywords" content="<%= metaData.keywords %>">
+    <meta property="og:site_name" content="<%= metaData.siteTitle %>">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<%= metaData.title %>">
+    <meta property="og:description" content="<%= metaData.description %>">
+
+    <link rel="canonical" href="<%= metaData.url %>">
+
+    <meta name="HandheldFriendly" content="true">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <!--CSS-->
+
+    <link rel="stylesheet" href="<%= metaData.stylesheetUrl %>" type="text/css">
+
+</head>
+<body>
+<header id="header">
+    <div id="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </div>
+</header>

@@ -1,0 +1,32 @@
+{
+  "name": "wip-problem",
+  "version": "1.0.0",
+  "description": "Simple markdown to html blog",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": 50
+  },
+  "author": "Marius B",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chokidar": "^3.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "node-cache": "^5.1.2",
+    "showdown": "^1.9.1",
+    "slugify": "^1.4.6",
+    "typedi": "^0.9.1",
+    "winston": "^3.3.3"
+  }
+}

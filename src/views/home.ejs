@@ -1,0 +1,15 @@
+<%- include('parts/header') -%>
+<h1><%= metaData.title %></h1>
+
+<h3>Latest Posts</h3>
+<ul>
+    <% latestPosts.forEach(function(post, i) { %>
+        <li>
+            <a href="<%= `${metaData.siteUrl}/blog/${post.slug}` %>">
+                <%= post.title %>
+            </a>
+        </li>
+    <% }); %>
+</ul>
+
+<%- include('parts/footer') -%>
