@@ -2,7 +2,7 @@
 
 ### This project is a simple blog created from Markdown files. It watches the files for changes, deletes and for newly created md files.
 
-###Demo: [Here](http://md-to-blog.manu.win)
+### Demo: [Here](http://md-to-blog.manu.win)
 
 ## Installation
 
@@ -21,7 +21,7 @@ npm start
 
 Populate the ```/posts``` folder with ```.md``` files that contains valid [Markdown syntax](https://www.markdownguide.org/basic-syntax)
 
-##Tools used
+## Tools used
 
 - MD to HTML: [showdown](https://github.com/showdownjs/showdown) 
 - cache: [node-cache](https://www.npmjs.com/package/node-cache)
