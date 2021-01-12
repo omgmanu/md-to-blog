@@ -2,7 +2,7 @@
 
 ### This project is a simple blog created from Markdown files. It watches the files for changes, deletes and for newly created md files.
 
-####Demo: <a href="http://md-to-blog.manu.win" target="_blank">Here </a>
+###Demo: [Here](http://md-to-blog.manu.win)
 
 ## Installation
 
@@ -19,12 +19,12 @@ npm start
 
 ##Usage
 
-Populate the ```/posts``` folder with ```.md``` files that contains valid <a href="https://www.markdownguide.org/basic-syntax/" target="_blank">Markdown syntax</a>
+Populate the ```/posts``` folder with ```.md``` files that contains valid [Markdown syntax](https://www.markdownguide.org/basic-syntax)
 
 ##Tools used
 
-- MD to HTML: <a href="https://github.com/showdownjs/showdown" target="_blank">showdown</a> 
-- cache: <a href="https://www.npmjs.com/package/node-cache" target="_blank">node-cache</a>
-- file watcher: <a href="https://github.com/paulmillr/chokidar" target="_blank">chokidar</a>
-- template engine: <a href="https://ejs.co" target="_blank">ejs</a>
-- DI tool: <a href="https://github.com/typestack/typedi" target="_blank">typedi</a>
+- MD to HTML: [showdown](https://github.com/showdownjs/showdown) 
+- cache: [node-cache](https://www.npmjs.com/package/node-cache)
+- file watcher: [chokidar](https://github.com/paulmillr/chokidar)
+- template engine: [ejs](https://ejs.co)
+- DI tool: [typedi](https://github.com/typestack/typedi)
