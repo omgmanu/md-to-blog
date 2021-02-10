@@ -2,7 +2,6 @@
 
 ### This project is a simple blog created from Markdown files. It watches the files for changes, deletes and for newly created md files.
 
-### Demo: [Here](http://md-to-blog.manu.win)
 
 ## Installation
 
